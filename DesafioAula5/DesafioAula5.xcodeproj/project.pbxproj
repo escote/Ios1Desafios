@@ -13,6 +13,7 @@
 		558C76711D860202001190A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558C766F1D860202001190A3 /* Main.storyboard */; };
 		558C76731D860202001190A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558C76721D860202001190A3 /* Assets.xcassets */; };
 		558C76761D860202001190A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558C76741D860202001190A3 /* LaunchScreen.storyboard */; };
+		558C767F1D860B1A001190A3 /* ViewEstrela.m in Sources */ = {isa = PBXBuildFile; fileRef = 558C767E1D860B1A001190A3 /* ViewEstrela.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		558C76721D860202001190A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		558C76751D860202001190A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		558C76771D860202001190A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558C767D1D860B1A001190A3 /* ViewEstrela.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewEstrela.h; sourceTree = "<group>"; };
+		558C767E1D860B1A001190A3 /* ViewEstrela.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewEstrela.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 				558C76721D860202001190A3 /* Assets.xcassets */,
 				558C76741D860202001190A3 /* LaunchScreen.storyboard */,
 				558C76771D860202001190A3 /* Info.plist */,
+				558C767D1D860B1A001190A3 /* ViewEstrela.h */,
+				558C767E1D860B1A001190A3 /* ViewEstrela.m */,
 				558C76661D860202001190A3 /* Supporting Files */,
 			);
 			path = DesafioAula5;
@@ -152,6 +157,7 @@
 				558C766E1D860202001190A3 /* ViewController.m in Sources */,
 				558C766B1D860202001190A3 /* AppDelegate.m in Sources */,
 				558C76681D860202001190A3 /* main.m in Sources */,
+				558C767F1D860B1A001190A3 /* ViewEstrela.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +308,7 @@
 				558C767C1D860202001190A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
